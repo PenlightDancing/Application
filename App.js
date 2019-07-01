@@ -9,7 +9,7 @@ import {
   StatusBar,
   Image
 } from 'react-native'
-
+import { Profile, Ranking } from './component'
 import { vw, vh, vmin, vmax } from 'react-native-expo-viewport-units';
 const TapIcon = ({focused, title}) => {
   return ( 
@@ -64,10 +64,10 @@ export default function App() {
       <Scene key = "root">
         <Scene key = "tabbar" tabs = {true} showLabel = {false} tabBarStyle={styles.contanier} hideNavBar>
           <Scene key="profile" icon = {TapIcon} title="Profile">
-            <Scene key = "asd" title = "asd" component = {Test} hideNavBar/>
+            <Scene key = "asd" title = "asd" component = {Profile} hideNavBar/>
           </Scene>
-          <Scene key="ranking" icon = {TapIcon} title="Ranking">
-            <Scene key = "asd" title = "asd" component = {Test} hideNavBar/>
+          <Scene key="ranking" icon = {TapIcon} title="Ranking" initial>
+            <Scene key = "asd" title = "asd" component = {Ranking} hideNavBar/>
           </Scene>
           <Scene key="vrpreview" icon = {TapIcon} title="VR">
             <Scene key = "asd" title = "asd" component = {Test} hideNavBar/>
