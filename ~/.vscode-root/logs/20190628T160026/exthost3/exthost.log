@@ -1,0 +1,24 @@
+[2019-06-29 23:18:39.287] [exthost] [info] extension host started
+[2019-06-29 23:18:39.315] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-06-29 23:18:39.316] [exthost] [info] ExtensionService#loadCommonJSModule /private/var/folders/k5/5sfx4_wn3vb8v1jlf02n_2p80000gn/T/AppTranslocation/0AAD5968-CD19-4689-94AD-25C3F7A3C7CD/d/Visual Studio Code.app/Contents/Resources/app/extensions/debug-auto-launch/dist/extension
+[2019-06-29 23:18:39.319] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-06-29 23:18:39.319] [exthost] [info] ExtensionService#loadCommonJSModule /private/var/folders/k5/5sfx4_wn3vb8v1jlf02n_2p80000gn/T/AppTranslocation/0AAD5968-CD19-4689-94AD-25C3F7A3C7CD/d/Visual Studio Code.app/Contents/Resources/app/extensions/emmet/dist/extension
+[2019-06-29 23:18:39.325] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-06-29 23:18:39.325] [exthost] [info] ExtensionService#loadCommonJSModule /private/var/folders/k5/5sfx4_wn3vb8v1jlf02n_2p80000gn/T/AppTranslocation/0AAD5968-CD19-4689-94AD-25C3F7A3C7CD/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/main
+[2019-06-29 23:18:39.356] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-06-29 23:18:39.356] [exthost] [info] ExtensionService#loadCommonJSModule /private/var/folders/k5/5sfx4_wn3vb8v1jlf02n_2p80000gn/T/AppTranslocation/0AAD5968-CD19-4689-94AD-25C3F7A3C7CD/d/Visual Studio Code.app/Contents/Resources/app/extensions/merge-conflict/dist/extension
+[2019-06-29 23:18:39.360] [exthost] [info] eager extensions activated
+[2019-06-29 23:19:11.296] [exthost] [info] extension host started
+[2019-06-29 23:19:11.331] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-06-29 23:19:11.331] [exthost] [info] ExtensionService#loadCommonJSModule /private/var/folders/k5/5sfx4_wn3vb8v1jlf02n_2p80000gn/T/AppTranslocation/0AAD5968-CD19-4689-94AD-25C3F7A3C7CD/d/Visual Studio Code.app/Contents/Resources/app/extensions/debug-auto-launch/dist/extension
+[2019-06-29 23:19:11.334] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-06-29 23:19:11.334] [exthost] [info] ExtensionService#loadCommonJSModule /private/var/folders/k5/5sfx4_wn3vb8v1jlf02n_2p80000gn/T/AppTranslocation/0AAD5968-CD19-4689-94AD-25C3F7A3C7CD/d/Visual Studio Code.app/Contents/Resources/app/extensions/emmet/dist/extension
+[2019-06-29 23:19:11.340] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-06-29 23:19:11.340] [exthost] [info] ExtensionService#loadCommonJSModule /private/var/folders/k5/5sfx4_wn3vb8v1jlf02n_2p80000gn/T/AppTranslocation/0AAD5968-CD19-4689-94AD-25C3F7A3C7CD/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/main
+[2019-06-29 23:19:11.371] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-06-29 23:19:11.371] [exthost] [info] ExtensionService#loadCommonJSModule /private/var/folders/k5/5sfx4_wn3vb8v1jlf02n_2p80000gn/T/AppTranslocation/0AAD5968-CD19-4689-94AD-25C3F7A3C7CD/d/Visual Studio Code.app/Contents/Resources/app/extensions/merge-conflict/dist/extension
+[2019-06-29 23:19:11.376] [exthost] [info] eager extensions activated
+[2019-06-29 23:19:19.020] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2019-06-29 23:19:19.020] [exthost] [info] ExtensionService#loadCommonJSModule /private/var/folders/k5/5sfx4_wn3vb8v1jlf02n_2p80000gn/T/AppTranslocation/0AAD5968-CD19-4689-94AD-25C3F7A3C7CD/d/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension
+[2019-06-29 23:25:39.393] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-06-29 23:25:39.393] [exthost] [info] ExtensionService#loadCommonJSModule /private/var/folders/k5/5sfx4_wn3vb8v1jlf02n_2p80000gn/T/AppTranslocation/0AAD5968-CD19-4689-94AD-25C3F7A3C7CD/d/Visual Studio Code.app/Contents/Resources/app/extensions/extension-editing/dist/extension
