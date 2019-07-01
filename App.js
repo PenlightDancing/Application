@@ -89,11 +89,15 @@ const styles = StyleSheet.create({
   contanier: {
     backgroundColor: '#1d1d1d',
     width: vw(100),
-    height: vh(9)
+    height: vh(9),
   },
   taps: {
+    width: vw(20),
+    height: vh(9),
+    borderColor: '#D3F7BA',
+    borderTopWidth: vw(0.4),
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
   },
   tapsImage: {
     marginTop: vw(1),
@@ -129,6 +133,6 @@ const styles = StyleSheet.create({
     borderWidth: vw(0.5),
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: vh(7)
+    marginBottom: vh(4.5)
   }
 })
