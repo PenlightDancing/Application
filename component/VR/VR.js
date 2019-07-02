@@ -13,13 +13,17 @@ import {
 import { styles } from './style'
 
 import { TopBar } from '../topBar/topBar'
+import { ScrollView } from 'react-native-gesture-handler';
 
-const Ranking = () => {
+const VRpreview = () => {
     return (
         <View style = {styles.container}>
-            <TopBar pageName = {'Ranking'}/>
+            <TopBar pageName = {'VR Preview'}/>
+            <ScrollView style = {{flex: 1}} scrollEnabled = {false}>
+                
+            </ScrollView>
         </View>
     )
 }
  
-export { Ranking }
+export { VRpreview }

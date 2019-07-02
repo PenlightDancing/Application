@@ -9,7 +9,7 @@ import {
   StatusBar,
   Image
 } from 'react-native'
-import { Profile, Ranking } from './component'
+import { Profile, Ranking, VRpreview } from './component'
 import { vw, vh, vmin, vmax } from 'react-native-expo-viewport-units';
 const TapIcon = ({focused, title}) => {
   return ( 
@@ -66,11 +66,11 @@ export default function App() {
           <Scene key="profile" icon = {TapIcon} title="Profile">
             <Scene key = "asd" title = "asd" component = {Profile} hideNavBar/>
           </Scene>
-          <Scene key="ranking" icon = {TapIcon} title="Ranking" initial>
+          <Scene key="ranking" icon = {TapIcon} title="Ranking" >
             <Scene key = "asd" title = "asd" component = {Ranking} hideNavBar/>
           </Scene>
-          <Scene key="vrpreview" icon = {TapIcon} title="VR">
-            <Scene key = "asd" title = "asd" component = {Test} hideNavBar/>
+          <Scene key="vrpreview" icon = {TapIcon} title="VR" initial>
+            <Scene key = "asd" title = "asd" component = {VRpreview} hideNavBar/>
           </Scene>
           <Scene key="news" icon = {TapIcon} title="News">
             <Scene key = "asd" title = "asd" component = {Test} hideNavBar/>

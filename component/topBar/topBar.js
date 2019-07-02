@@ -16,16 +16,16 @@ import { styles } from './style'
 const TopBar = ({ pageName }) => {
     return (
         <View style = {styles.container}>
-            { pageName === 'Profile Page' ? ( <TextBar/> ) : null}
-            { pageName === 'Ranking Page' ? ( <SearchBar/> ) : null}
+            { pageName === 'Profile' ? ( <TextBar/> ) : null}
+            { pageName === 'Ranking' || pageName === 'VR Preview' ? ( <SearchBar title = {pageName}/> ) : null}
         </View>
     )
 }
-const SearchBar = () => {
+const SearchBar = ({ title }) => {
     const [searchText, changeText] = useState()
     return (
         <View style = {styles.searchBar}>
-            <Text style = {styles.title}>Ranking</Text>
+            <Text style = {styles.title}>{title}</Text>
             <View style = {styles.searchBox}>
                 <Image source = {require('../../assets/search.png')} style = { styles.searchImage }/>
                 <TextInput
