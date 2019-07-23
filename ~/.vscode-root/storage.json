@@ -46,7 +46,6 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/Users/snlcom/Desktop/penlightDancing/penlightapp",
                                         "external": "file:///Users/snlcom/Desktop/penlightDancing/penlightapp",
                                         "path": "/Users/snlcom/Desktop/penlightDancing/penlightapp",
                                         "scheme": "file"
@@ -117,7 +116,8 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
+                        "label": "Close &&Folder",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -473,7 +473,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -482,7 +483,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -754,7 +756,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1347,5 +1350,18 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#1e1e1e",
-    "pickerWorkingDir": "/Users/snlcom/Desktop/penlightDancing"
+    "pickerWorkingDir": "/Users/snlcom/Desktop/penlightDancing",
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/Users/snlcom/Desktop/penlightDancing/penlightapp/~/.vscode-root/Backups/1562344308434",
+            "uiState": {
+                "mode": 1,
+                "x": 328,
+                "y": 141,
+                "width": 1024,
+                "height": 768
+            }
+        },
+        "openedWindows": []
+    }
 }

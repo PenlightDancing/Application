@@ -16,7 +16,7 @@ import { styles } from './style'
 const TopBar = ({ pageName }) => {
     return (
         <View style = {styles.container}>
-            { pageName === 'Profile' ? ( <TextBar/> ) : null}
+            { pageName === 'Profile' ? ( <TextBar title = {pageName}/> ) : null}
             { pageName === 'Ranking' || pageName === 'VR Preview' ? ( <SearchBar title = {pageName}/> ) : null}
         </View>
     )
@@ -40,10 +40,10 @@ const SearchBar = ({ title }) => {
     )
 }
 
-const TextBar = () => {
+const TextBar = ({ title }) => {
     return (
         <View style = {styles.textBar}>
-            <Text style = {styles.title}>Profile</Text>
+            <Text style = {styles.title}>{title}</Text>
         </View>
     )
 }

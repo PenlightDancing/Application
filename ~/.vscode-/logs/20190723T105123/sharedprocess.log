@@ -1,0 +1,23 @@
+[2019-07-23 10:51:27.426] [sharedprocess] [info] main {"machineId":"5da2d575354dd492fb27825ad08e8d1336ac6ea585f35570d10e3c455a8308ab"}
+[2019-07-23 10:51:27.471] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-23 10:51:27.501] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-23 10:51:27.502] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-23 10:51:27.546] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-23 10:51:27.559] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-23 10:51:27.565] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-23 10:51:27.605] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-23 10:51:27.634] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-23 10:51:32.900] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-23 10:51:40.634] [sharedprocess] [info] Installing extension: ms-vscode.cpptools
+[2019-07-23 10:51:40.639] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-23 10:51:52.994] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-23 10:51:52.999] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-23 10:51:53.072] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-23 10:51:53.079] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-23 10:51:53.347] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-23 10:51:53.372] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-23 10:51:55.321] [sharedprocess] [info] Scanned user extensions: 2
+[2019-07-23 10:51:57.978] [sharedprocess] [info] Installing extension: ms-vscode.cpptools
+[2019-07-23 10:52:07.393] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-07-23 10:52:41.004] [sharedprocess] [error] Failed to install extension: ms-vscode.cpptools 
+[2019-07-23 10:56:55.398] [sharedprocess] [info] Scanned user extensions: 2

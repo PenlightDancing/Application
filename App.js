@@ -24,16 +24,10 @@ const TapIcon = ({focused, title}) => {
           <Image source = { require('./assets/rankGray.png')} style = {styles.tapsImage}/>
         )}
       </View> ) : null}
-
       { title === 'VR' ? ( 
         <View style = {styles.AppBar}>
-          { focused ? ( <Image source = { require('./assets/virtual-realityColor.png')} style = {styles.tapsImage2}/> ) : (
-            <Image source = { require('./assets/virtual-reality.png')} style = {styles.tapsImage2}/>
-          )}
-          { focused ? (
-            <Text style = {styles.tapsText1}>{title}</Text>
-          ) : (
-            <Text style = {[styles.tapsText1, {color : '#a5a5a5'}]}>{title}</Text>
+          { focused ? ( <Image source = { require('./assets/VR_ON.png')} style = {styles.tapsImage2}/> ) : (
+            <Image source = { require('./assets/VR_OFF.png')} style = {styles.tapsImage2}/>
           )}
         </View> 
       ) : null}
@@ -63,13 +57,13 @@ export default function App() {
     <Router>
       <Scene key = "root">
         <Scene key = "tabbar" tabs = {true} showLabel = {false} tabBarStyle={styles.contanier} hideNavBar>
-          <Scene key="profile" icon = {TapIcon} title="Profile">
+          <Scene key="profile" icon = {TapIcon} title="Profile" initial>
             <Scene key = "asd" title = "asd" component = {Profile} hideNavBar/>
           </Scene>
           <Scene key="ranking" icon = {TapIcon} title="Ranking" >
             <Scene key = "asd" title = "asd" component = {Ranking} hideNavBar/>
           </Scene>
-          <Scene key="vrpreview" icon = {TapIcon} title="VR" initial>
+          <Scene key="vrpreview" icon = {TapIcon} title="VR" >
             <Scene key = "asd" title = "asd" component = {VRpreview} hideNavBar/>
           </Scene>
           <Scene key="news" icon = {TapIcon} title="News">
@@ -110,9 +104,9 @@ const styles = StyleSheet.create({
     height: vw(5.2),
   },
   tapsImage2: {
-    marginTop: vw(1),
-    width: vw(8),
-    height: vw(8),
+    marginTop: vw(0),
+    width: vw(18),
+    height: vw(18),
   },
   tapsText: {
     fontSize: vw(2.5),
