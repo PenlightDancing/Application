@@ -81,7 +81,7 @@ const Test = () => { return (<View></View>) }
 
 const styles = StyleSheet.create({
   contanier: {
-    backgroundColor: '#1d1d1d',
+    backgroundColor: 'rgb(21,30,36)',
     width: vw(100),
     height: vh(9),
   },

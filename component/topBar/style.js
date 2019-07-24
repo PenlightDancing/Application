@@ -7,7 +7,7 @@ import { vw, vh, vmin, vmax } from 'react-native-expo-viewport-units';
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: '#1d1d1d',
+        backgroundColor: 'rgb(21,30,36)',
         borderBottomWidth: vw(0.3),
         borderColor: '#D3F7BA'
     },
